@@ -31,7 +31,7 @@ Use this to keep track of every version of your object
 	history.resolve(versions)
 	// {name: "bobby", age: 32}
 	
-The difference is applied deeply to objects
+Nested objects are deeply differenced
 
 	history.diff({
 		mood:{cheerful:true}
@@ -40,7 +40,7 @@ The difference is applied deeply to objects
 	})
 	// {mood:{annoying:true}}
 	
-Arrays are just replaced. They aren't deep
+Nested arrays are completely replaced.
 
 	history.diff({likes: ['food']}, {likes: ['food', 'games']})
 	// {likes: ['food', 'games']}
