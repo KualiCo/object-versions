@@ -1,18 +1,27 @@
 {
-  "name": "object-diff-history",
+  "name": "object-versions",
   "version": "1.0.0",
-  "description": "Get the difference between two objects. Resolve a history of diffs into one object",
+  "description": "Diff objects and merge versions to track object history",
   "main": "index.js",
   "scripts": {},
+  "keywords": [
+    "object",
+    "versions",
+    "history",
+    "diff",
+    "merge"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/KualiCo/object-diff-history.git"
   },
-  "author": "",
+  "author": "Sean Hess",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KualiCo/object-diff-history/issues"
   },
   "homepage": "https://github.com/KualiCo/object-diff-history",
-  "dependencies": {}
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
 }
